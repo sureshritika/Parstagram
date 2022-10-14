@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/ring"
+        android:height="500dp"
+        android:width="500dp" />
+    <item
+        android:drawable="@drawable/profile_selected_false"
+        android:gravity="center"
+        android:width="500dp"
+        android:height="500dp"
+        />
+</layer-list>
