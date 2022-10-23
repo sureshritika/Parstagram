@@ -24,7 +24,6 @@ class LoginActivity : AppCompatActivity() {
     lateinit var loginBtn : Button
     lateinit var loginProgress : ProgressBar
     lateinit var signupBtn : Button
-    lateinit var signupProgress : ProgressBar
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -35,7 +34,6 @@ class LoginActivity : AppCompatActivity() {
         loginBtn = findViewById(R.id.id_loginBtn)
         loginProgress = findViewById(R.id.id_loginProgress)
         signupBtn = findViewById(R.id.id_signupBtn)
-        signupProgress = findViewById(R.id.id_signupProgress)
 
         buttonOff()
 
@@ -56,12 +54,6 @@ class LoginActivity : AppCompatActivity() {
 
         })
 
-        // Check if there's a user logged in
-        // If there is, take them to MainActivity
-        if (ParseUser.getCurrentUser() != null) {
-            goToMainActivity()
-        }
-
         loginBtn.setOnClickListener {
             val username = usernameEdit.text.toString()
             val password = passwordEdit.text.toString()
@@ -69,44 +61,16 @@ class LoginActivity : AppCompatActivity() {
         }
 
         signupBtn.setOnClickListener {
-            val username = usernameEdit.text.toString()
-            val password = passwordEdit.text.toString()
-            signupUser(username , password)
+            goToSignUpActivity()
         }
 
-    }
-
-    private fun signupUser(username : String , password : String) {
-        Log.d("RITIKA" , "signUp clicked")
-        progressVisible(signupProgress)
-
-        // Create the ParseUser
-        val user = ParseUser()
-
-        // Set fields for the user to be created
-        user.setUsername(username)
-        user.setPassword(password)
-
-        user.signUpInBackground { e ->
-            progressInvisible(signupProgress)
-            if (e == null) {
-                // User has successfully created a new account
-                Log.d("RITIKA" , "signUpUser success")
-                goToMainActivity()
-            } else {
-                // Sign up didn't succeed. Look at the ParseException
-                // to figure out what went wrong
-                Log.d("RITIKA" , "signUpUser failure ${e}")
-                Toast.makeText(this, e.message, Toast.LENGTH_LONG).show();
-            }
-        }
     }
 
     private fun loginUser(username : String , password : String) {
         Log.d("RITIKA" , "loginUser clicked")
-        progressVisible(loginProgress)
+        progressVisible()
         ParseUser.logInInBackground(username, password, ({ user, e ->
-            progressInvisible(loginProgress)
+            progressInvisible()
             if (user != null) {
                 Log.i("RITIKA" , "loginUser success")
                 goToMainActivity()
@@ -123,35 +87,37 @@ class LoginActivity : AppCompatActivity() {
         finish()
     }
 
-    private fun progressVisible(progress : ProgressBar) {
-        progress.visibility = View.VISIBLE
+    fun goToSignUpActivity() {
+        val intent = Intent(this@LoginActivity , SignupActivity::class.java)
+        startActivity(intent)
+        finish()
+    }
+
+    private fun progressVisible() {
+        loginProgress.visibility = View.VISIBLE
         usernameEdit.isEnabled = false
         passwordEdit.isEnabled = false
+        signupBtn.alpha = 0.25F
+        signupBtn.isEnabled = false
         buttonOff()
     }
 
-    private fun progressInvisible(progress : ProgressBar) {
-        progress.visibility = View.INVISIBLE
+    private fun progressInvisible() {
+        loginProgress.visibility = View.INVISIBLE
         usernameEdit.isEnabled = true
         passwordEdit.isEnabled = true
+        signupBtn.alpha = 1F
+        signupBtn.isEnabled = true
         buttonOn()
     }
 
     private fun buttonOff() {
         loginBtn.alpha = 0.25F
-        loginBtn.isClickable = false
-        signupBtn.alpha = 0.25F
-        signupBtn.isClickable = false
+        loginBtn.isEnabled = false
     }
 
     private fun buttonOn() {
         loginBtn.alpha = 1F
-        loginBtn.isClickable = true
-        signupBtn.alpha = 1F
-        signupBtn.isClickable = true
-    }
-
-    companion object {
-
+        loginBtn.isEnabled = true
     }
 }

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/id_newPostHeader"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/id_name"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textColor="@color/black"
+        android:text="New post" />
+
+    <RelativeLayout
+        android:id="@+id/id_shareLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="5dp" >
+
+        <Button
+            android:id="@+id/id_sharePostBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/white"
+            android:text="Share"
+            android:textColor="@color/ig_light_blue"
+            android:textSize="15dp"  />
+
+        <ProgressBar
+            android:id="@+id/id_shareProgress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:elevation="7dp"
+            android:indeterminateDrawable="@drawable/progress"
+            android:scaleX=".5"
+            android:scaleY=".5"
+            android:visibility="gone" />
+    </RelativeLayout>
+</RelativeLayout>

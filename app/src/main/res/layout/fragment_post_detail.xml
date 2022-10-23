@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <RelativeLayout
+            android:id="@+id/id_header"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true">
+
+            <ImageView
+                android:id="@+id/id_profileImg"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_centerVertical="true"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/id_username"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="10dp"
+                android:layout_toEndOf="@id/id_profileImg"
+                android:gravity="center"
+                android:text="username"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/id_createdAt"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:text="created At" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/id_postImg"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_below="@id/id_header"
+            android:layout_centerHorizontal="true"
+            android:scaleType="centerCrop"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <RelativeLayout
+            android:id="@+id/id_footer"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@id/id_postImg"
+            android:layout_centerHorizontal="true">
+
+            <ImageButton
+                android:id="@+id/id_likeBtn"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:background="@color/white"
+                android:src="@drawable/like_selector" />
+
+            <ImageButton
+                android:id="@+id/id_commentBtn"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@id/id_likeBtn"
+                android:background="@color/white"
+                android:src="@drawable/comment" />
+
+            <ImageButton
+                android:id="@+id/id_shareBtn"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@id/id_commentBtn"
+                android:background="@color/white"
+                android:src="@drawable/share_w" />
+
+            <ImageButton
+                android:id="@+id/id_saveBtn"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:background="@color/white"
+                android:src="@drawable/save" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/id_likes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/id_footer"
+            android:layout_centerHorizontal="true"
+            android:text="0 likes" />
+
+        <TextView
+            android:id="@+id/id_caption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/id_likes"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:text="caption" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/id_commentsRV"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/id_caption" />
+
+        <ProgressBar
+            android:id="@+id/id_loadingProgress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/id_commentsRV"
+            android:layout_alignTop="@id/id_commentsRV"
+            android:layout_alignEnd="@id/id_commentsRV"
+            android:layout_alignBottom="@id/id_commentsRV"
+            android:indeterminateDrawable="@drawable/progress"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            android:visibility="visible" />
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,55 @@
+<RelativeLayout
+    android:id="@+id/id_commentLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <ImageButton
+        android:id="@+id/id_cancelBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/id_commentEdit"
+        android:layout_alignBottom="@id/id_commentEdit"
+        android:scaleX="0.75"
+        android:scaleY="0.75"
+        android:background="@color/white"
+        android:src="@drawable/close" />
+
+    <EditText
+        android:id="@+id/id_commentEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/id_cancelBtn"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Add a comment..."
+        android:inputType="textMultiLine"
+        android:minLines="1" />
+
+    <Button
+        android:id="@+id/id_postBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_commentEdit"
+        android:layout_alignParentEnd="true"
+        android:text="Post"
+        android:textColor="@color/black" />
+
+    <ProgressBar
+        android:id="@+id/id_postProgress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/id_postBtn"
+        android:layout_alignTop="@id/id_postBtn"
+        android:layout_alignEnd="@id/id_postBtn"
+        android:layout_alignBottom="@id/id_postBtn"
+        android:layout_centerInParent="true"
+        android:elevation="7dp"
+        android:indeterminateDrawable="@drawable/progress"
+        android:scaleX=".5"
+        android:scaleY=".5"
+        android:visibility="gone" />
+</RelativeLayout>

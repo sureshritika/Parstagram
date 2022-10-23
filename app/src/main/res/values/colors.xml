@@ -7,6 +7,12 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="light_gray">#A9A9A9</color>
     <color name="dark_gray">#63666A</color>
-    <color name="ig_blue">#458EFF</color>
+    <color name="ig_light_blue">#458EFF</color>
+    <color name="ig_yellow">#FEDA75</color>
+    <color name="ig_orange">#FA7E1E</color>
+    <color name="ig_pink">#D62976</color>
+    <color name="ig_purple">#962FBF</color>
+    <color name="ig_dark_blue">#4F5BD5</color>
 </resources>

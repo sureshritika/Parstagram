@@ -1,13 +1,9 @@
 package com.example.parstagram
 
-import com.parse.ParseClassName
-import com.parse.ParseFile
-import com.parse.ParseObject
-import com.parse.ParseUser
+import android.util.Log
+import com.parse.*
+import org.json.JSONArray
 
-// Description : String
-// Image : File
-// User : User
 @ParseClassName("Post")
 class Post : ParseObject() {
 
@@ -35,10 +31,46 @@ class Post : ParseObject() {
         put(KEY_USER , user)
     }
 
+    fun getProfileImage() : ParseFile? {
+        return getUser()?.getParseFile(KEY_PROF_IMG)
+    }
+
+    fun addLike() {
+        put(KEY_LIKES , getLikes()+1)
+    }
+
+    fun removeLike() {
+        put(KEY_LIKES , getLikes()-1)
+    }
+
+    fun getLikes() : Int {
+        return getInt(KEY_LIKES)
+    }
+
+    fun addLiker() {
+        put(KEY_LIKERS , mutableListOf(ParseUser.getCurrentUser()))
+    }
+
+    fun removeLiker() {
+        removeAll(KEY_LIKERS , mutableListOf(ParseUser.getCurrentUser()))
+    }
+
+    fun getLikers() : List<ParseUser>? {
+        return getList(KEY_LIKERS)
+    }
+
+    fun getFormattedTimeStamp() : String {
+        return TimeFormatter.getTimeDifference(createdAt.toString())
+    }
+
     companion object {
         const val KEY_DESCRIPTION = "description"
         const val KEY_IMAGE = "image"
         const val KEY_USER = "user"
+        const val KEY_PROF_IMG = "profileImage"
+        const val KEY_LIKES = "likes"
+        const val KEY_LIKERS = "likers"
+
     }
 
 }

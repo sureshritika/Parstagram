@@ -1,0 +1,43 @@
+<LinearLayout android:id="@+id/id_profileButtonLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="2"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+        android:id="@+id/id_editProfileBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/dark_gray"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:text="Edit profile" />
+
+    <RelativeLayout
+        android:id="@+id/id_logoutLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="10dp" >
+
+        <Button
+            android:id="@+id/id_logoutBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/ig_light_blue"
+            android:text="Log out"
+            android:textColor="@color/white" />
+
+        <ProgressBar
+            android:id="@+id/id_logoutProgress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:indeterminateDrawable="@drawable/progress"
+            android:scaleX=".5"
+            android:scaleY=".5"
+            android:elevation="7dp"
+            android:visibility="gone" />
+    </RelativeLayout>
+</LinearLayout>

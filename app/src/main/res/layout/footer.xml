@@ -22,7 +22,7 @@
         android:layout_height="match_parent"
         android:layout_centerInParent="true"
         android:background="@color/white"
-        android:src="@drawable/post" />
+        android:src="@drawable/post_selected_true" />
 
     <ImageButton
         android:id="@+id/id_profileBtn"

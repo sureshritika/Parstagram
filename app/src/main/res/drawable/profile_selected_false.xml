@@ -2,12 +2,8 @@
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="24dp"
     android:height="24dp"
-    android:viewportWidth="29"
-    android:viewportHeight="29">
-
- <group
-     android:translateX="2.5"
-     android:translateY="2.5">
+    android:viewportWidth="24"
+    android:viewportHeight="24">
 
  <path
      android:strokeColor="@color/black"
@@ -27,5 +23,4 @@
      android:strokeMiterLimit="10"
      android:strokeLineCap="round"
      android:pathData="M 12.006 5.609 C 14.2753380371 5.609 16.115 7.44866196295 16.115 9.718 C 16.115 11.9873380371 14.2753380371 13.827 12.006 13.827 C 9.73666196295 13.827 7.897 11.9873380371 7.897 9.718 C 7.897 7.44866196295 9.73666196295 5.609 12.006 5.609 Z" />
- </group>
 </vector>

@@ -3,23 +3,38 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2005" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/drawable/back.xml" value="0.161" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/drawable/back_arrow.xml" value="0.161" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/drawable/button_clickable_true.xml" value="0.161" />
         <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/drawable/camera.xml" value="0.2015" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/drawable/cancel.xml" value="0.161" />
         <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/drawable/close.xml" value="0.182" />
         <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/drawable/comment.xml" value="0.2015" />
         <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/drawable/home.xml" value="0.2015" />
         <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/drawable/home_selected_false.xml" value="0.193" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/drawable/home_selected_true.xml" value="0.2005" />
         <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/drawable/home_selector.xml" value="0.193" />
         <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2015" />
         <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/drawable/ic_visibility_off.xml" value="0.2015" />
         <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/drawable/ic_visibility_on.xml" value="0.2015" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/drawable/ig_color.xml" value="0.2005" />
         <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/drawable/ig_logo.xml" value="0.2015" />
         <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/drawable/ig_name.xml" value="0.2015" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/drawable/ig_rainbow.xml" value="0.2005" />
         <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/drawable/like.xml" value="0.2015" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/drawable/like_selected_true.xml" value="0.1615" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/drawable/like_selector.xml" value="0.1615" />
         <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/drawable/loading.xml" value="0.1725" />
         <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/drawable/more.xml" value="0.2015" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/drawable/more_dot.xml" value="0.189" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/drawable/more_line.xml" value="0.189" />
         <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/drawable/password_selector.xml" value="0.2015" />
         <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/drawable/post.xml" value="0.2015" />
         <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/drawable/post_item.xml" value="0.2015" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/drawable/post_selected_false.xml" value="0.2005" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/drawable/post_selected_true.xml" value="0.2005" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/drawable/post_selector.xml" value="0.2005" />
         <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/drawable/profile.xml" value="0.2015" />
         <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/drawable/profile_selected_false.xml" value="0.193" />
         <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/drawable/profile_selected_true.xml" value="0.193" />
@@ -31,16 +46,52 @@
         <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/drawable/share_b.xml" value="0.2015" />
         <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/drawable/share_selector.xml" value="0.2015" />
         <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/drawable/share_w.xml" value="0.2015" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/drawable/tablerow_selector.xml" value="0.189" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/layout/activity_edit_profile.xml" value="0.30092592592592593" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/layout/activity_edit_profile_item.xml" value="0.2" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/layout/activity_home.xml" value="0.264" />
         <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/layout/activity_instagram.xml" value="0.264" />
-        <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/layout/activity_login.xml" value="0.22682445759368836" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/layout/activity_login.xml" value="0.21224489795918366" />
         <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/layout/activity_main.xml" value="0.21324565523720057" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/layout/activity_post_details.xml" value="0.17370892018779344" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/layout/activity_signup.xml" value="0.24524025385312784" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/layout/activity_user_profile.xml" value="0.1746761387379858" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/layout/buttons_other.xml" value="0.1" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/layout/buttons_other_me.xml" value="0.1" />
         <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/layout/create_post.xml" value="0.536" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/layout/edit_profile_header.xml" value="0.3051643192488263" />
         <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/layout/footer.xml" value="0.6" />
-        <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/layout/header.xml" value="1.6" />
-        <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/layout/item_post.xml" value="0.4204152249134948" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/layout/fragment_comment.xml" value="0.44805194805194803" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/layout/fragment_feed.xml" value="0.1746761387379858" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/layout/fragment_post.xml" value="0.4" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/layout/fragment_post_detail.xml" value="0.2" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/layout/fragment_profile.xml" value="0.264" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/layout/header.xml" value="0.2" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/layout/header_edit_profile.xml" value="0.10823234433765148" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/layout/header_new_post.xml" value="0.17342248223986628" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/layout/header_other_profile.xml" value="0.1" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/layout/header_post.xml" value="0.2" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/layout/header_profile.xml" value="0.10823234433765148" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/layout/ig_header.xml" value="0.33678756476683935" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/layout/item_comment.xml" value="0.35566188197767146" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/layout/item_post.xml" value="0.4" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/layout/item_post_grid.xml" value="0.10823234433765148" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/layout/new_post_header.xml" value="0.536" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/layout/other_me_profile_layout.xml" value="0.1" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/layout/other_profile_header.xml" value="0.10906811533639783" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/layout/other_profile_layout.xml" value="0.264" />
         <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/layout/page_profile.xml" value="0.2662037037037037" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/layout/popup_comment.xml" value="0.264" />
         <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/layout/post.xml" value="0.1586582048957389" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/layout/post_header.xml" value="0.4" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/layout/profile_button_layout.xml" value="0.4" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/layout/profile_header.xml" value="0.4327485380116959" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/layout/profile_item_header.xml" value="0.15684496826835903" />
         <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/layout/profile_page.xml" value="0.1255666364460562" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/menu/change_prof_img_menu.xml" value="0.3206672845227062" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/menu/footer_menu.xml" value="0.1923899102180419" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/menu/header_menu.xml" value="0.2231722958529286" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/menu/menu_bottom_navigation.xml" value="0.3206672845227062" />
         <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/xml/backup_rules.xml" value="0.12545289855072464" />
         <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/xml/data_extraction_rules.xml" value="0.12545289855072464" />
         <entry key="..\:/Users/ritik/AndroidStudioProjects/Parstagram/app/src/main/res/xml/fileprovider.xml" value="0.12545289855072464" />

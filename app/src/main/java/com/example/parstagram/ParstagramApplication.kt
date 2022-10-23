@@ -10,6 +10,8 @@ class ParstagramApplication : Application() {
 
         ParseObject.registerSubclass(Post::class.java)
 
+        ParseObject.registerSubclass(Comment::class.java)
+
         Parse.initialize(
             Parse.Configuration.Builder(this)
                 .applicationId(getString(R.string.back4app_app_id))

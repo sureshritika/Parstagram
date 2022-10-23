@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/id_editProfileLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    tools:context=".EditProfile">
+
+    <ImageView
+        android:id="@+id/id_profileImg"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <Button
+        android:id="@+id/id_changeProfImgBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_profileImg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:text="Change profile photo"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="@color/ig_light_blue" />
+
+    <TableLayout
+        android:id="@+id/id_profileInfoLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_changeProfImgBtn"
+        android:stretchColumns="0,1">
+        <TableRow
+            android:id="@+id/id_nameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tablerow_selector" >
+            <TextView
+                android:id="@+id/id_nameTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:text="Name" />
+            <TextView
+                android:id="@+id/id_nameInfoTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:text="name text" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/id_usernameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tablerow_selector" >
+            <TextView
+                android:id="@+id/id_usernameTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:text="Username" />
+            <TextView
+                android:id="@+id/id_usernameInfoTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:text="username text" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/id_bioLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tablerow_selector" >
+            <TextView
+                android:id="@+id/id_bioTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:text="Bio" />
+            <TextView
+                android:id="@+id/id_bioInfoTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:text="bio text" />
+        </TableRow>
+
+    </TableLayout>
+
+</RelativeLayout>

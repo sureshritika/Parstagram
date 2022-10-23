@@ -1,0 +1,15 @@
+<LinearLayout
+    android:id="@+id/id_otherProfileButtonLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+        android:id="@+id/id_followBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/dark_gray"
+        android:layout_margin="10dp"
+        android:text="Follow" />
+</LinearLayout>

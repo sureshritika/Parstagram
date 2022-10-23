@@ -5,6 +5,8 @@
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <queries>
 
@@ -21,12 +23,22 @@
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@drawable/ig_logo"
         android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
         android:roundIcon="@drawable/ig_logo"
         android:supportsRtl="true"
         android:theme="@style/Theme.Parstagram"
         tools:targetApi="31">
         <activity
-            android:name=".ProfilePage"
+            android:name=".SignupActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EditProfileItem"
+            android:exported="false" />
+        <activity
+            android:name=".EditProfile"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
@@ -43,7 +55,7 @@
             android:value="@string/back4app_client_key" />
 
         <activity
-            android:name=".LoginActivity"
+            android:name=".HomeActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -51,9 +63,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".CreatePost"
-            android:exported="true" />
 
         <provider
             android:name="androidx.core.content.FileProvider"
