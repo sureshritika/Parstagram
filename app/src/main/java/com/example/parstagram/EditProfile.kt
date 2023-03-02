@@ -45,6 +45,9 @@ class EditProfile : AppCompatActivity() {
     var photoFile: File? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
+
+        Log.d("RITIKA", "testing123")
+
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_edit_profile)
 
