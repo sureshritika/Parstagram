@@ -1,4 +1,5 @@
 # Project 3 - *Parstagram*
+Android App using Kotlin
 
 ## Part 2
 
