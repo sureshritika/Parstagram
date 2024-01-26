@@ -1,9 +1,8 @@
 # Project 3 - *Parstagram*
-Android App using Kotlin
+
+**Parstagram** is an Android based photo sharing app using Kotlin similar to Instagram but using Parse Platform as its backend.
 
 ## Part 2
-
-**Parstagram** is a photo sharing app similar to Instagram but using Parse as its backend.
 
 Time spent: **12** hours spent in total
 
@@ -63,8 +62,6 @@ This part was harder than the first part because there was a lot of new features
     limitations under the License.
 
 ## Part 1
-
-**Parstagram** is a photo sharing app similar to Instagram but using Parse as its backend.
 
 Time spent: **6** hours spent in total
 
